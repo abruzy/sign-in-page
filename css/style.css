@@ -35,6 +35,11 @@ nav {
   align-items: center;
 }
 
+nav .brand-logo,
+.cart-logo {
+  cursor: pointer;
+}
+
 nav .left-nav,
 .right-nav {
   display: flex;
@@ -46,11 +51,11 @@ nav a {
   color: #000;
   margin: 0 0.5rem;
   font-size: 0.85rem;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 nav .left-nav .brand-name {
-  font-weight: 800;
+  font-weight: 400;
   font-size: 1.2rem;
   margin-right: 2rem;
 }
@@ -61,9 +66,9 @@ nav .left-nav .brand-name {
 }
 
 .page-container .header-2 {
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 0.75rem;
-  font-size: 2rem;
+  font-size: 1.75rem;
   line-height: 1.5;
 }
 
